@@ -33,7 +33,6 @@ ABOUT_TEXT = """
 - **Bot :** `Translator Bot`
 - **Creator :** [Harris](https://telegram.me/Harris211)
 - **Channel :** [GOD OF WORLD](https://telegram.me/GOD_OF_WORLD1)
-- **Source :** [Click here](https://https://github.com/Harris7864/Translator-Bot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
