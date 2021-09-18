@@ -6,7 +6,7 @@ A simple google translator telegram bot
 
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) @GOD_OF_WORLD1
 Copyright permission under MIT License
 License -> https://github.com/FayasNoushad/Translator-Bot/blob/main/LICENSE
 ```
