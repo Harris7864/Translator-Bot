@@ -31,9 +31,9 @@ Made by @FayasNoushad
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Translator-Bot)
+- **Creator :** [Harris](https://telegram.me/Harris211)
+- **Channel :** [Fayas Noushad](https://telegram.me/GOD_OF_WORLD1)
+- **Source :** [Click here](https://https://github.com/Harris7864/Translator-Bot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -54,8 +54,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/GOD_OF_WORLD1'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Harris211')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
@@ -69,7 +69,7 @@ CLOSE_BUTTON = InlineKeyboardMarkup(
     )
 TRANSLATE_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/GOD_OF_WORLD1')
         ]]
     )
 DEFAULT_LANGUAGE = os.environ.get("DEFAULT_LANGUAGE", "en")
@@ -131,7 +131,7 @@ async def translate(bot, update):
         translate = translator.translate(text, dest=language)
         translate_text = f"**Translated to {language}**"
         translate_text += f"\n\n{translate.text}"
-        translate_text += "\n\nMade by @FayasNoushad"
+        translate_text += "\n\nMade by @Harris211"
         if len(translate_text) < 4096:
             await message.edit_text(
                 text=translate_text,
