@@ -59,6 +59,6 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Harris](https://github.com/Harris7864)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Google Translator](https://translate.google.com)
